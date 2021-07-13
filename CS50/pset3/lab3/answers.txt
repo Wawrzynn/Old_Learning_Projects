@@ -1,0 +1,14 @@
+sort1 uses: Bubble Sort
+
+How do you know?: sorted values in sorted.txt way faster than sort3 so it must be bubble sort
+
+sort2 uses: Merge Sort
+
+How do you know?: at random values the fastest by far
+
+sort3 uses: Selection Sort
+
+How do you know?: sorted values in sorted.txt vay slower than sort1 so it must be selection sort
+
+
+
