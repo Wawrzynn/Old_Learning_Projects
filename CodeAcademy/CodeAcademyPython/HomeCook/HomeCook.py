@@ -1,0 +1,17 @@
+from menu import *
+print("#    #    #####    #       #   ######       #####    #####     #####    #   #")
+print("#    #   #     #   ##     ##   #           #        #     #   #     #   #  #")
+print("#    #   #     #   # #   # #   #           #        #     #   #     #   # #")
+print("######   #     #   #   #   #   ######      #        #     #   #     #   ##")
+print("#    #   #     #   #       #   #           #        #     #   #     #   # #")
+print("#    #   #     #   #       #   #           #        #     #   #     #   #  #")
+print("#    #    #####    #       #   ######       #####    #####     #####    #   #")
+print("-----------------------------------------------------------------------------")
+print("Welcome to my cook book where you can find 5 diffrent recipes that will satisfy even biggest gourmet.\nDon't be shy and anwser few questions so that we can adjust your taste and serve you the best we possibly can.")
+print("-----------------------------------------------------------------------------")
+menu = ["Cake", "Burger", "Pizza", "Macaroni", "Sandwich"]
+print('Hi, what do you want to eat today?\n')
+new_menu = listToString(menu)
+print(new_menu)
+choice()
+sth_Else()
