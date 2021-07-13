@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel='stylesheet' href='ankieta.css'>
+
+</head>
+
+<body>
+    <h1 id='title'>Football survey form</h1>
+    <p id='description'><i>This survey will tell us about your football preferations</i></p>
+    <form id='survey-form'>
+        <label id='number-label' for='name'>Name</label><br>
+        <input type='text' id='name' name='name' placeholder='Enter your name' required><br>
+        <label id='email-label' for='email'>Email</label><br>
+        <input type='email' id='email' name='email' placeholder='Enter your email' required><br>
+        <label id='number-label' for='number'>Age</label><br>
+        <input type='number' id='number' name='age' placeholder='Age' min='0' max='99'><br>
+        <p>What is your favorite league out of top 5?</p>
+        <select id='dropdown' name='league'>
+            <option disabled selected value>Select favourite league</option>
+            <option value='Bundesliga'>Bundesliga</option>
+            <option value='SerieA'>Serie A</option>
+            <option value='Ligue1'>Ligue 1</option>
+            <option value='PremierLeague'>Premier League</option>
+            <option value='Laliga'>La Liga</option>
+        </select>
+        <p>Who do you consider best among those players?</p>
+        <input type='radio' id='Messi' name='player' value='Messi'>
+        <label for='Messi'>Messi</label><br>
+        <input type='radio' id='CR7' name='player' value='CR7'>
+        <label for='CR7'>CR7</label><br>
+        <input type='radio' id='pele' name='player' value='pele'>
+        <label for='pele'>Pele</label><br>
+        <input type='radio' id='Maradona' name='player' value='Maradona'>
+        <label for='Maradona'>Maradona</label><br>
+        <p>Which club among these you consider best in history?</p>
+        <select id='dropdown2' name='club'>
+            <option disabled selected value>Select best club</option>
+            <option value='Barcelona'>Barcelona</option>
+            <option value='Bayern'>Bayern Monachium</option>
+            <option value='Juventus'>Juventus</option>
+            <option value='Realmadrid'>Real Madrid</option>
+            <option value='Liverpool'>Liverpool</option>
+        </select>
+        <p>What do you consider most important in player's overall abilities? (Check all you consider vital)</p>
+        <input type='checkbox' id='running' name='feature1' value='Sprint'>
+        <label for='feature1'>Sprint speed and velocity</label><br>
+        <input type='checkbox' id='Passing' name='feature2' value='Passing'>
+        <label for='feature2'>Passing</label><br>
+        <input type='checkbox' id='Condition' name='feature3' value='Condition'>
+        <label for='feature3'>Condition</label><br>
+        <input type='checkbox' id='lead' name='feature4' value='lead'>
+        <label for='feature4'>Leadership skills</label><br>
+        <input type='checkbox' id='tackles' name='feature5' value='tackles'>
+        <label for='feature5'>Good defenses and tackles</label><br>
+        <input type='checkbox' id='reflex' name='feature6' value='reflex'>
+        <label for='feature6'>Good reflex</label><br>
+        <input type='checkbox' id='dirbbling' name='feature7' value='dribbling'>
+        <label for='feature7'>Outstanding dribbling</label><br>
+        <input type='checkbox' id='heading' name='feature8' value='heading'>
+        <label for='feature8'>Heading skills</label><br>
+        <input type='checkbox' id='field' name='feature9' value='field'>
+        <label for='feature9'>Field overwiev</label><br>
+        <p>Comments and suggestions</p>
+        <textarea id='texttarea' name='textarea' rows='4' cols='50' placeholder='Comment here'>
+        </textarea><br>
+        <button type='submit' id='submit'>Submit</button>
+
+
+
+
+
+    </form>
+</body>
+
+</html>

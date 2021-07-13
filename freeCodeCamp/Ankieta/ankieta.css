@@ -1,0 +1,84 @@
+body {
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    background-image: url('https://www.scisports.com/wp-content/uploads/2018/11/stadium-2000x1225.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+#survey-form {
+    background-color: rgb(68, 139, 216);
+    max-width: 100%;
+    margin: 0px auto 100px auto;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: left;
+    
+}
+@media (min-width: 576px) {
+    #survey-form {
+      max-width: 540px;
+    }
+  }
+  
+@media (min-width: 768px) {
+    #survey-form {
+      max-width: 720px;
+    }
+  }
+  input[type=text] {
+      width: 100%;
+      padding: 5px;
+      margin: 5px 0;
+      display: inline-block;
+      box-sizing: border-box;
+      border-radius: 5px;
+  }
+  input[type=email] {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+input[type=number] {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+#dropdown {
+    width: 100%;
+    padding: 5px;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+#dropdown2 {
+    width: 100%;
+    padding: 5px;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+#texttarea {
+    width: 100%;
+    padding: 5px;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: black;
+}
+#submit {
+    width: 100%;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin: 10px 0 0 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
