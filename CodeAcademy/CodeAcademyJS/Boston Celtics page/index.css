@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: green;
+    font-family: sans-serif;
+}
+h1,h2,h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav li {
+  display: inline;
+  color: white;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  padding: 30px 50px;
+}
+nav a:hover {
+    color: green;
+    background-color: white;;
+}
+nav a:active {
+    color: black;
+}
+.header img {
+   width: 300px;
+   height: 300px;
+}
+.header {
+    margin-top: 150px;
+    text-align: center;
+}
+.header h1 {
+    color: white;
+}
+#info {
+    color: white;
+    font-size: 20px;
+    margin: 0 40px;
+    line-height: 1.5em;
+}
+#players p {
+    color: white;
+    font-size: 20px;
+    margin: 0 40px;
+    line-height: 1.5em;
+}
+#players h2 {
+ color: white;
+ font-size: 30px;
+ margin: 0 40px;
+}
+#players h3 {
+    color: white;
+    font-size: 25px;
+    margin: 15px 40px;
+   }
+#trophies h2 {
+    color: white;
+    font-size: 30px;
+    margin: 0 40px;
+    margin-top: 30px;
+}
+
+#trophies li {
+    color: white;
+    font-size: 20px;
+    margin: 0 40px;
+    line-height: 1.5em;
+}
